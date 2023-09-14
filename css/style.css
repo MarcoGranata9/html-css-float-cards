@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 70%;
+}
+
+/* Titolo */
+h1 {
+    color: #e53170;
+    font-weight: bold;
+}
+/* /Titolo */
