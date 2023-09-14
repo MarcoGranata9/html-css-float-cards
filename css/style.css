@@ -15,12 +15,70 @@ body {
 
 .container {
     margin: 0 auto;
-    width: 70%;
+    width: 80%;
 }
 
-/* Titolo */
+/* Title */
 h1 {
     color: #e53170;
     font-weight: bold;
+    font-size: 3rem;
 }
-/* /Titolo */
+
+header {
+    padding: 1.5rem;
+}
+/* /Title */
+
+/* Paragraph */
+p {
+    padding-bottom: 2rem;
+}
+/* Paragraph */
+
+/* Team info*/
+.row {
+    text-align: left;
+}
+
+.col {
+    float: left;
+    width: calc(100% / 3);
+    padding-right: 1rem;
+}
+
+.background {
+    background-color: #0f0e17;
+}
+
+.team-l {
+    list-style-type: none;
+    color: white;
+    padding: 11px;
+    margin-left: 100px;
+}
+
+li:not(:last-child) {
+    margin: 6px;
+}
+
+img {
+    height: 100px;
+    float: left;
+}
+
+.name {
+    color: white;
+    font-weight: 1000;
+}
+
+.job {
+    color: white;
+    font-weight: lighter;
+}
+
+.email {
+    color: #55bad1;
+    font-weight: lighter;
+}
+/* /Team info */
