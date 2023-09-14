@@ -39,6 +39,7 @@ p {
 /* Team info*/
 .row {
     text-align: left;
+    margin-bottom: 150px;
 }
 
 .col {
@@ -54,12 +55,12 @@ p {
 .team-l {
     list-style-type: none;
     color: white;
-    padding: 11px;
+    padding: 9px;
     margin-left: 100px;
 }
 
-li:not(:last-child) {
-    margin: 6px;
+li {
+    margin: 5px;
 }
 
 img {
@@ -70,6 +71,7 @@ img {
 .name {
     color: white;
     font-weight: 1000;
+    font-size: large;
 }
 
 .job {
